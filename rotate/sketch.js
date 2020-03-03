@@ -14,19 +14,20 @@ function draw() {
     const dim = Math.min(width, height);
 
     // 形状的属性
-    // 定义线条连接的风格。这些链接可以是尖角、斜角或圆角
+    // 定义线条连接的风格。这些链接可以是尖角、斜角或圆角，圆角
     strokeJoin(ROUND);
     strokeWeight(dim * 0.015);
     stroke(255);
     noFill();
 
+    // 自程序开始以来的毫秒数
     const time = millis() / 1000;
 
     const duration = 7;
 
     const playhead = time / duration % 1;
 
-    // Get the rotation of a full circle
+    // // Get the rotation of a full circle
     const rotation = playhead * PI * 2;
 
     const x = width / 2;
