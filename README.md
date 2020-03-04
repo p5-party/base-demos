@@ -25,6 +25,12 @@
     <img src="./public/trig.gif" width=200>
 </center>
 
+<center class="third">
+    <img src="./public/line2circle.gif" width=275>
+    <!-- <img src="./public/shape.png" width=150 height=113> -->
+    <img src="./public/hexagon.gif" width=275>
+</center>
+
 
 ## Note
 
