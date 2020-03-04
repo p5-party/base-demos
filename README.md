@@ -1,9 +1,36 @@
 # base-demos
-some simple demos
+> Some simple demos using p5Js.
 
-## lerp()
-lerp 函数可以参考维基百科
+## Link
+- [https://p5-demos.glitch.me/](https://p5-demos.glitch.me)
+- [p5.js](https://p5js.org/zh-Hans/reference/#/p5/deltaTime)
 
 
-## 示例
-<small>这里会展示一些示例的gif</small>
+## Examples
+
+<center class="third" >
+    <img src="./public/bleed.png" width=200 height=113>
+    <img src="./public/circle.png" height=113>
+    <img src="./public/lerp.gif" width=200>
+</center>
+<center class="third">
+    <img src="./public/loop.gif" width=200>
+    <img src="./public/mouse.gif" width=150 height=113>
+    <img src="./public/repeat.png" width=200>
+</center>
+
+<center class="third">
+    <img src="./public/rotate.gif" width=200>
+    <img src="./public/shape.png" width=150 height=113>
+    <img src="./public/trig.gif" width=200>
+</center>
+
+
+## Note
+
+### lerp
+* [https://en.wikipedia.org/wiki/Lerp](https://en.wikipedia.org/wiki/Lerp)
+
+### deltaTime
+* [https://en.wikipedia.org/wiki/Delta_time_(disambiguation)](https://en.wikipedia.org/wiki/Delta_time_(disambiguation))
+* [https://www.youtube.com/watch?v=phX-1vq5YPw](https://www.youtube.com/watch?v=phX-1vq5YPw)
