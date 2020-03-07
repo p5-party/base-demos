@@ -8,8 +8,8 @@ function windowResized() {
 }
 
 function draw() {
-    background('#efefef')
-    // background(0)
+    // background('#efefef')
+    background('#1eb2a6')
 
     const dim = min(width, height)
     let wd = dim / 2
@@ -19,13 +19,13 @@ function draw() {
     const initx = x - wd / 2
     const inity = y - wd / 2
 
-    push()
-    fill(255)
-    noStroke();
-    rect(initx - 10, inity - 10, wd + 20, wd + 20)
+    // push()
+    // fill(255)
+    // noStroke();
+    // rect(initx - 10, inity - 10, wd + 20, wd + 20)
+    // pop()
 
-    pop()
-    const count = 10
+    const count = dim / 10
     // let width, 以及缩小倍数
     let h = wd / count / 1.5
 
@@ -33,7 +33,7 @@ function draw() {
     for (let i = 0; i < count; ++i) {
         arrs[i] = []
         for (let j = 0; j < count; ++j) {
-            arrs[i][j] = new Generative(initx + i * 20, inity + j * 20, 10)
+            arrs[i][j] = new Generative(i * 20, j * 20, 10)
         }
     }
     arrs.forEach(v => {
@@ -47,7 +47,8 @@ function draw() {
 
 class Generative {
     constructor(x, y, h) {
-        const colors = ["#1f1e24", "#b72015", "#3552ba", "#e1b806", "green"]
+        // const colors = ["#1f1e24", "#b72015", "#3552ba", "#e1b806", "green"]
+        const colors = ["#b590ca", "#a8d3da", "#3552ba", "#f3ecb8", "#ffa34d"]
         this.borderRadius = Math.random() < .5 ? 0 : 10
         this.scale = Math.random(0.9, 1)
         this.bg = colors[Math.floor(Math.random() * colors.length)]
